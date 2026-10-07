@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TravelPro</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="top-bar">
+        <div class="container-fluid px-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="topbar-left">
+              <span>Address: 3517 W. Gray St. Utica, Pennsylvania 57867</span>
+              <span class="topbar-divider">/</span>
+              <a href="mailto:info@company.com">info@company.com</a>
+            </div>
+            <div class="topbar-right">
+              <a href="#">Help</a><span>/</span>
+              <a href="#">Support</a><span>/</span>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-header">
+        <div class="container-fluid px-0">
+          <nav class="navbar navbar-expand-lg p-0">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/main-logo.png" alt="TravelPro Logo" class="brand-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNavCollapse" aria-controls="mainNavCollapse" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="mainNavCollapse">
+              <div class="offcanvas-header">
+                <div class="mobile-logo">Travel<span>Pro</span></div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav main-nav mx-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="destination.html">Destination</a></li>
+                  <li class="nav-item"><a class="nav-link" href="tour.html">Tours</a></li>
+                  <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-search">
+              <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="header-phone">
+              <a href="tel:+8123985789">+8 (123) 985 789</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-map"><img src="images/hero-img.png" alt="" /></div>
+          <div class="hero-plane plane-one"><i class="fa-solid fa-plane"></i></div>
+          <div class="hero-plane plane-two"><i class="fa-solid fa-plane"></i></div>
+          <div class="hero-globe globe-one"><i class="fa-solid fa-globe"></i></div>
+          <div class="hero-globe globe-two"><i class="fa-solid fa-globe"></i></div>
+          <div class="hero-location"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="hero-content">
+            <div class="hero-subtitle">Find Next PlaceTo Visit</div>
+            <h1>Tour Travel &<br />Adventure Camping</h1>
+            <p>Denouncing pleasure and praising pain was born and will give you complete great explorer of the truth the master-builder.</p>
+            <div class="hero-bottom">
+              <a href="#" class="hero-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              <div class="hero-rating">
+                <div class="google-icon">G</div>
+                <div class="rating-content">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="rating-text">4.9 Rating</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="packages-section">
+        <div class="container">
+          <div class="packages-heading text-center">
+            <div class="packages-subtitle">CHOOSE YOUR PACKAGE</div>
+            <h2>Popular Tours Packages</h2>
+          </div>
+          <div class="row g-4 packages-row">
+            <div class="col-lg-4 col-md-6">
+              <article class="package-card">
+                <div class="package-image">
+                  <img src="images/1st-img-2nd-sec.png" alt="boat" />
+                  <div class="package-duration duration-white">3 Day 2 Night</div>
+                </div>
+                <div class="package-content">
+                  <h3>Famous for its whitewashed</h3>
+                  <div class="package-location"><i class="fa-solid fa-globe"></i><span>Santorini, Greece</span></div>
+                  <div class="package-bottom">
+                    <div class="package-price">$4500</div>
+                    <a href="#" class="package-btn">Book Now</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <article class="package-card">
+                <div class="package-image">
+                  <img src="images/2nd-img-2nd-sec.png" alt="island" />
+                  <div class="package-duration duration-white">4 Day 3 Night</div>
+                </div>
+                <div class="package-content">
+                  <h3>An ancient Incan city</h3>
+                  <div class="package-location"><i class="fa-solid fa-globe"></i><span>Machu Picchu, Peru</span></div>
+                  <div class="package-bottom">
+                    <div class="package-price">$3500</div>
+                    <a href="#" class="package-btn">Book Now</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <article class="package-card">
+                <div class="package-image">
+                  <img src="images/3rd-img-2nd-sec.png" alt="field" />
+                  <div class="package-duration duration-white">5 Day 4 Night</div>
+                </div>
+                <div class="package-content">
+                  <h3>Famous for its skyscrapers</h3>
+                  <div class="package-location"><i class="fa-solid fa-globe"></i><span>New York City, USA</span></div>
+                  <div class="package-bottom">
+                    <div class="package-price">$5500</div>
+                    <a href="#" class="package-btn">Book Now</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discount-section">
+        <div class="discount-overlay"></div>
+        <div class="container">
+          <div class="row align-items-center discount-row">
+            <div class="col-lg-6 col-md-12">
+              <div class="discount-content">
+                <div class="discount-subtitle">27 DISCOUNT OFFER</div>
+                <h2>Discount Popup<br />Examples to Elevate</h2>
+                <p>Denouncing pleasure and praising pain was born and will give you complete great explorer of the truth the master-builder.</p>
+                <a href="#" class="discount-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="discount-logos">
+                <div class="discount-logo logo-one"><img src="images/logo-1-3rd-sec.png" alt="" /></div>
+                <div class="discount-logo logo-two"><img src="images/logo-2-3rd-sec.png" alt="" /></div>
+                <div class="discount-logo logo-three"><img src="images/logo-3-3rd-sec.png" alt="" /></div>
+                <div class="discount-logo logo-four"><img src="images/logo-5-3rd-sec.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-choose-section">
+        <div class="container">
+          <div class="why-choose-heading text-center">
+            <div class="why-choose-subtitle">WHY CHOOSE US</div>
+            <h2>Get The Best Travel Experience</h2>
+          </div>
+          <div class="why-choose-wrapper">
+            <div class="row g-4">
+              <div class="col-lg-3 col-md-6">
+                <div class="why-choose-item">
+                  <div class="choose-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                  <h3>Set Travel Plan</h3>
+                  <p>Distinctively impact client-centered ideas via future-proof paradigms.</p>
+                </div>
+                <div class="why-choose-item mt-4">
+                  <div class="choose-icon"><i class="fa-solid fa-hotel"></i></div>
+                  <h3>Luxury Hotel</h3>
+                  <p>Distinctively impact client-centered ideas via future-proof paradigms.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="why-choose-image">
+                  <img src="images/img-4th-sec.png" alt="Travel Experience" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="why-choose-item">
+                  <div class="choose-icon"><i class="fa-solid fa-compass"></i></div>
+                  <h3>Explore Around</h3>
+                  <p>Distinctively impact client-centered ideas via future-proof paradigms.</p>
+                </div>
+                <div class="why-choose-item mt-4">
+                  <div class="choose-icon"><i class="fa-solid fa-headset"></i></div>
+                  <h3>Support 24/7</h3>
+                  <p>Distinctively impact client-centered ideas via future-proof paradigms.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="destinations-section">
+        <div class="container">
+          <div class="destinations-heading">
+            <div class="destinations-subtitle">POPULAR DESTINATION</div>
+            <h2>Popular Destinations</h2>
+          </div>
+          <div class="destinations-slider">
+            <div class="dest-item dest-active">
+              <img src="images/img-1-5th-sec.png" alt="Eiffel Tower" />
+              <div class="dest-overlay"></div>
+              <div class="dest-content"><h3>Eiffel Tower</h3></div>
+              <button class="dest-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="dest-item">
+              <img src="images/img-2-5th-sec.png" alt="Pryde Mountains" />
+              <div class="dest-overlay"></div>
+              <div class="dest-content"><h3>Pryde Mountains</h3></div>
+              <button class="dest-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="dest-item">
+              <img src="images/img-3-5th-sec.png" alt="Lao Lading Island" />
+              <div class="dest-overlay"></div>
+              <div class="dest-content"><h3>Lao Lading Island</h3></div>
+              <button class="dest-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="dest-item">
+              <img src="images/img-4-5th-sec.png" alt="Ton Kwen Temple" />
+              <div class="dest-overlay"></div>
+              <div class="dest-content"><h3>Ton Kwen Temple</h3></div>
+              <button class="dest-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="dest-item">
+              <img src="images/img-5-5th-sec.png" alt="Rock Island" />
+              <div class="dest-overlay"></div>
+              <div class="dest-content"><h3>Rock Island</h3></div>
+              <button class="dest-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="container">
+          <div class="team-heading text-center">
+            <div class="team-subtitle">TRAVEL AGENTS</div>
+            <h2>Our Experts Team Member</h2>
+          </div>
+          <div class="row g-1 justify-content-center">
+            <div class="col-lg-4 col-md-6">
+              <div class="team-card">
+                <div class="team-image-wrapper">
+                  <img src="images/img-1-6th-sec.png" alt="David Cooper" />
+                  <div class="team-overlay">
+                    <div class="team-content">
+                      <h3>David Cooper</h3><span>Project Manager</span>
+                      <div class="team-social">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="team-card">
+                <div class="team-image-wrapper">
+                  <img src="images/img-2-6th-sec.png" alt="Team Member" />
+                  <div class="team-overlay">
+                    <div class="team-content">
+                      <h3>John Doe</h3><span>Tour Guide</span>
+                      <div class="team-social">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="team-card">
+                <div class="team-image-wrapper">
+                  <img src="images/img-3-6th-sec.png" alt="Team Member" />
+                  <div class="team-overlay">
+                    <div class="team-content">
+                      <h3>Sarah Smith</h3><span>Travel Expert</span>
+                      <div class="team-social">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+              <div class="faq-image-wrapper">
+                <img src="images/img-7th-sec.png" alt="Adventures Travels" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="faq-content">
+                <div class="faq-item active">
+                  <div class="faq-question">
+                    <h3>What type of travel packages does Vacasky offer?</h3>
+                    <button class="faq-toggle" aria-label="Toggle answer"><i class="fa-regular fa-eye-slash"></i></button>
+                  </div>
+                  <div class="faq-answer"><p>There are many variations of passages of available but the Ut elit tellus luctus nec ullamcorper at mattis variations of passages of available.</p></div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <h3>How do I book a trip with Vacasky?</h3>
+                    <button class="faq-toggle" aria-label="Toggle answer"><i class="fa-regular fa-eye"></i></button>
+                  </div>
+                  <div class="faq-answer"><p>There are many variations of passages of available but the Ut elit tellus luctus nec ullamcorper at mattis variations of passages of available.</p></div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <h3>What is the payment process for Vacasky?</h3>
+                    <button class="faq-toggle" aria-label="Toggle answer"><i class="fa-regular fa-eye"></i></button>
+                  </div>
+                  <div class="faq-answer"><p>There are many variations of passages of available but the Ut elit tellus luctus nec ullamcorper at mattis variations of passages of available.</p></div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <h3>What Payment Methods are Supported?</h3>
+                    <button class="faq-toggle" aria-label="Toggle answer"><i class="fa-regular fa-eye"></i></button>
+                  </div>
+                  <div class="faq-answer"><p>There are many variations of passages of available but the Ut elit tellus luctus nec ullamcorper at mattis variations of passages of available.</p></div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <h3>How to cancel my booking in Vacasky?</h3>
+                    <button class="faq-toggle" aria-label="Toggle answer"><i class="fa-regular fa-eye"></i></button>
+                  </div>
+                  <div class="faq-answer"><p>There are many variations of passages of available but the Ut elit tellus luctus nec ullamcorper at mattis variations of passages of available.</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 col-md-12">
+              <div class="testimonials-heading">
+                <div class="testimonials-subtitle">TESTIMONIALS</div>
+                <h2>Our Valuable Customers<br />Awesome Feedback</h2>
+                <p>Completely reinvent worldwide testing procedures with cooperative initiatives to leverage existing excellent best practices with functional</p>
+              </div>
+              <div class="swiper testimonials-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="testimonial-author">
+                        <img src="images/img-1-8th-sec.png" alt="Alexon Shen" />
+                        <div class="author-info"><h4>Alexon Shen</h4><span>California, USA</span></div>
+                      </div>
+                      <div class="testimonial-content">
+                        <div class="quote-text">"Quality Servies Good!"</div>
+                        <p>Completely reinvent worldwide testing new proceds with cooperative initiatives. Seemly leverage market excellent best practices chains</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="testimonial-author">
+                        <img src="images/img-2-8th-sec.png" alt="John Doe" />
+                        <div class="author-info"><h4>John Doe</h4><span>New York, USA</span></div>
+                      </div>
+                      <div class="testimonial-content">
+                        <div class="quote-text">"Amazing Experience!"</div>
+                        <p>Completely reinvent worldwide testing new proceds with cooperative initiatives. Seemly leverage market excellent best practices chains</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="testimonial-author">
+                        <img src="images/img-3-8th-sec.png" alt="Sarah Smith" />
+                        <div class="author-info"><h4>Sarah Smith</h4><span>London, UK</span></div>
+                      </div>
+                      <div class="testimonial-content">
+                        <div class="quote-text">"Highly Recommended!"</div>
+                        <p>Completely reinvent worldwide testing new proceds with cooperative initiatives. Seemly leverage market excellent best practices chains</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="testimonials-image-wrapper">
+                <img src="images/main-img-8th-sec.png" alt="Happy Traveler" />
+                <div class="quote-badge"><i class="fa-solid fa-quote-right"></i></div>
+                <div class="image-accent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="container">
+          <div class="blog-heading text-center">
+            <div class="blog-subtitle">NEWS & BLOGS</div>
+            <h2>Last Minute Amazing Deals</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <article class="blog-card">
+                <div class="blog-image-wrap">
+                  <img src="images/img-1-9th-sec.png" alt="Blog 1" />
+                  <div class="blog-hover-border"></div>
+                  <div class="blog-date"><span class="day">7</span><span class="month">Mar</span></div>
+                </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span><i class="fa-regular fa-user"></i> By. travelpro</span>
+                    <span><i class="fa-regular fa-comment"></i> No Comments</span>
+                  </div>
+                  <h3>Our Business Thrives To Contribute Global</h3>
+                  <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <article class="blog-card">
+                <div class="blog-image-wrap">
+                  <img src="images/img-2-9th-sec.png" alt="Blog 2" />
+                  <div class="blog-hover-border"></div>
+                  <div class="blog-date"><span class="day">7</span><span class="month">Mar</span></div>
+                </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span><i class="fa-regular fa-user"></i> By. travelpro</span>
+                    <span><i class="fa-regular fa-comment"></i> No Comments</span>
+                  </div>
+                  <h3>Designing Better Linke Website And Email</h3>
+                  <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <article class="blog-card">
+                <div class="blog-image-wrap">
+                  <img src="images/img-3-9th-sec.png" alt="Blog 3" />
+                  <div class="blog-hover-border"></div>
+                  <div class="blog-date"><span class="day">15</span><span class="month">Feb</span></div>
+                </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span><i class="fa-regular fa-user"></i> By. travelpro</span>
+                    <span><i class="fa-regular fa-comment"></i> 1 Comment</span>
+                  </div>
+                  <h3>Useful VS Code Esions Front-End Develop</h3>
+                  <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer-wrapper">
+      <div class="container">
+        <div class="newsletter-card">
+          <div class="newsletter-icon"><img src="images/news-img.png" alt="Newsletter Icon" /></div>
+          <div class="newsletter-title"><h2>Subscribe Our Newsletter</h2></div>
+          <div class="newsletter-form-area"><p><strong>Error:</strong> Contact form not found.</p></div>
+        </div>
+      </div>
+      <div class="container footer-content">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-col">
+              <a class="footer-logo" href="index.html"><img src="images/footer-logo.png" alt="TravelPro Logo" /></a>
+              <div class="footer-contact">
+                <div class="contact-item"><span class="label">Call Us</span><a href="tel:+423536242365">+423 5362 42365</a></div>
+                <div class="contact-item"><span class="label">Mail Us</span><a href="mailto:hello@travelpro.co">hello@travelpro.co</a></div>
+              </div>
+              <div class="footer-social">
+                <span class="label">Follow Us</span>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-col footer-col-bordered">
+              <div class="footer-heading">Useful Links</div>
+              <div class="links-container">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="tour.html">Tours</a></li>
+                  <li><a href="#">Terms of Services</a></li>
+                </ul>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-col">
+              <div class="footer-heading">Contact Info</div>
+              <div class="links-container">
+                <ul>
+                  <li>Santorini, Greece</li>
+                  <li>New York City, USA</li>
+                  <li>Paris, France</li>
+                  <li>Machu Picchu, Peru</li>
+                </ul>
+                <ul>
+                  <li>Machu Picchu, Peru</li>
+                  <li>Rome, Italy</li>
+                  <li>Africa Portugal Mexico</li>
+                  <li>New York City, USA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="copyright">Copyright © 2024 Travelpro . All rights reserved.</div>
+            <a href="#" class="footer-link">Terms of Services</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
